@@ -72,3 +72,52 @@ Registers a new user by creating a user record in the database.
 User Details List (GET): /get-details
 
 Retrieves a list of user details from the database.
+
+# Teckno Technical CRUD App Front
+
+Teckno Technical CRUD App is an Angular application that provides a user interface for managing user data using a CRUD interface. It includes login and registration functionality, user details display, and utilizes JWT (JSON Web Tokens) for user authentication. The app also features several Angular components, services, and interceptors for enhanced functionality.
+
+# Project Structure
+my-crud-app-angular
+|-- src
+|   |-- app
+|   |   |-- auth-guard
+|   |   |   `-- auth.guard.ts
+|   |   |-- auth-service
+|   |   |   `-- auth.service.ts
+|   |   |-- error-interceptor
+|   |   |   `-- error.interceptor.ts
+|   |   |-- token-interceptor
+|   |   |   `-- token.interceptor.ts
+|   |   |-- login
+|   |   |   |-- login.component.html
+|   |   |   |-- login.component.ts
+|   |   |-- register
+|   |   |   |-- register.component.html
+|   |   |   |-- register.component.ts
+|   |   |-- user-details
+|   |   |   |-- user-details.component.html
+|   |   |   |-- user-details.component.ts
+|   |-- assets
+|   |   |-- images
+|   |   |   `-- logo.png
+|-- node_modules
+|-- package.json
+|-- package-lock.json
+|-- angular.json
+|-- tsconfig.json
+|-- README.md
+
+# Installation
+Before running the Angular app, make sure you have the following prerequisites installed on your machine:
+
+Node.js and npm
+# Follow these steps to set up and run the project:
+cd teckno-angualr
+
+# Install project dependencies using npm (use the --force flag to ensure dependencies are reinstalled):
+npm install --force
+
+# Start the Angular development server:
+ng serve
+
